@@ -1,6 +1,5 @@
-import React from 'react';
-
 "use client";
+import React from 'react';
 import Magnetic from './Magnetic';
 
 const Hero = () => {
@@ -23,8 +22,8 @@ const Hero = () => {
           Aryan Vishwakarma<span className="text-indigo-500">.</span>
         </h1>
         <p className="text-lg md:text-xl max-w-3xl mx-auto text-zinc-400 mb-8 font-light leading-relaxed">
-          Full-Stack Engineer specializing in <span className="text-white font-medium">React, TypeScript & Python</span>. 
-          Whether it's scaling systems for <span className="text-white font-medium">Enterprises</span>, 
+           Full-Stack Engineer specializing in <span className="text-white font-medium">React, TypeScript & Python</span>. 
+           Whether it&apos;s scaling systems for <span className="text-white font-medium">Enterprises</span>, 
           shipping fast for <span className="text-white font-medium">Startups</span>, or delivering 
           bespoke solutions as a <span className="text-white font-medium">Freelancer</span>.
         </p>

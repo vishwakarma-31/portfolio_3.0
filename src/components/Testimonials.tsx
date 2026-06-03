@@ -32,7 +32,7 @@ const Testimonials = () => {
           {testimonials.map((t, index) => (
             <div key={index} className="flex flex-col items-center text-center">
               <img src={t.img} alt={t.author} className="w-24 h-24 rounded-full object-cover mb-6 grayscale hover:grayscale-0 transition-all" />
-              <p className="text-xl italic text-gray-300 mb-6">"{t.quote}"</p>
+               <p className="text-xl italic text-gray-300 mb-6">&quot;{t.quote}&quot;</p>
               <h4 className="font-bold tracking-tight">{t.author}</h4>
               <p className="text-sm text-gray-500">{t.role}</p>
             </div>

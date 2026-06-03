@@ -15,8 +15,8 @@ const Contact = () => {
           <div className="p-6 border border-zinc-800 rounded-xl bg-black/40">
             <h3 className="text-indigo-400 font-mono text-xs uppercase tracking-widest mb-3">For Recruiters</h3>
             <p className="text-zinc-300 text-sm leading-relaxed mb-4">
-              Looking for a versatile engineer who can handle scale and ship fast? 
-              Let's discuss how I can contribute to your team.
+               Looking for a versatile engineer who can handle scale and ship fast? 
+               Let&apos;s discuss how I can contribute to your team.
             </p>
             <a href="mailto:work.aaryannn@gmail.com" className="text-white font-bold text-sm hover:text-indigo-400 transition-colors">Send Offer →</a>
           </div>
