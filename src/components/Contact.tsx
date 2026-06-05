@@ -40,7 +40,7 @@ const Contact = () => {
            </a>
            <div className="mt-12 flex justify-center gap-6">
              <a href="https://github.com/vishwakarma-31" className="text-zinc-500 hover:text-white transition-colors font-mono text-xs uppercase">GitHub</a>
-             <a href="https://linkedin.com/in/your-profile" className="text-zinc-500 hover:text-white transition-colors font-mono text-xs uppercase">LinkedIn</a>
+             <a href="https://linkedin.com/in/aryan-vishwakarma-31" className="text-zinc-500 hover:text-white transition-colors font-mono text-xs uppercase">LinkedIn</a>
            </div>
          </div>
        </div>

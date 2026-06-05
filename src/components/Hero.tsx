@@ -28,23 +28,23 @@ const Hero = () => {
           shipping fast for <span className="text-white font-medium">Startups</span>, or delivering 
           bespoke solutions as a <span className="text-white font-medium">Freelancer</span>.
         </p>
-        <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <Magnetic>
-            <Link href="/contact" className="inline-block px-8 py-4 bg-white text-black font-bold uppercase tracking-widest text-sm hover:bg-indigo-500 hover:text-white transition-all">
-              Work With Me
-            </Link>
-          </Magnetic>
-          <Magnetic>
-            <Link href="/contact" className="inline-block px-8 py-4 border border-indigo-500 text-indigo-400 font-bold uppercase tracking-widest text-sm hover:bg-indigo-500 hover:text-white transition-all">
-              Send Offer
-            </Link>
-          </Magnetic>
-          <Magnetic>
-            <Link href="/projects" className="inline-block px-8 py-4 border border-zinc-700 text-white font-bold uppercase tracking-widest text-sm hover:bg-zinc-900 transition-all">
-              View Portfolio
-            </Link>
-          </Magnetic>
-        </div>
+<div className="flex flex-col sm:flex-row gap-4 justify-center">
+           <Magnetic>
+             <Link href="/contact" className="inline-block px-8 py-4 bg-white text-black font-bold uppercase tracking-widest text-sm hover:bg-indigo-500 hover:text-white transition-all">
+               Work With Me
+             </Link>
+           </Magnetic>
+           <Magnetic>
+             <Link href="/services" className="inline-block px-8 py-4 border border-indigo-500 text-indigo-400 font-bold uppercase tracking-widest text-sm hover:bg-indigo-500 hover:text-white transition-all">
+               View My Work
+             </Link>
+           </Magnetic>
+           <Magnetic>
+             <Link href="/projects" className="inline-block px-8 py-4 border border-zinc-700 text-white font-bold uppercase tracking-widest text-sm hover:bg-zinc-900 transition-all">
+               View Portfolio
+             </Link>
+           </Magnetic>
+         </div>
       </div>
     </section>
   );

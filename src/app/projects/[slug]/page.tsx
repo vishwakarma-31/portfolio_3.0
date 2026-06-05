@@ -1,14 +1,15 @@
-"use client";
 import React from 'react';
-import { useParams } from 'next/navigation';
 import { projects } from '@/data/projects';
 import Navbar from '@/components/Navbar';
 import CustomCursor from '@/components/CustomCursor';
 import Reveal from '@/components/Reveal';
 
-export default function ProjectDetailsPage() {
-  const params = useParams();
-  const slug = params.slug as string;
+type Props = {
+  params: Promise<{ slug: string }>;
+};
+
+export default async function ProjectDetailsPage({ params }: Props) {
+  const { slug } = await params;
 
   const project = projects.find((p) => p.slug === slug);
 

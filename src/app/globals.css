@@ -18,3 +18,9 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   overflow-x: hidden;
 }
+
+@media (pointer: fine) {
+  * {
+    cursor: none !important;
+  }
+}

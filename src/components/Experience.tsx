@@ -11,12 +11,14 @@ const experiences = [
     role: 'Software Engineer Intern',
     company: 'Electronic Arts',
     period: '2023',
+    isSimulation: true,
     description: 'Developed modular components in an Agile environment, contributing to game-related software tools using C++.'
   },
   {
     role: 'Data Analyst',
     company: 'Deloitte',
     period: '2022',
+    isSimulation: true,
     description: 'Specialized in modeling and visualization for actionable insights, leveraging data-driven mindsets to uncover business trends.'
   },
 ];
@@ -32,11 +34,15 @@ const Experience = () => {
         {experiences.map((exp, index) => (
           <div key={index} className="group grid grid-cols-1 md:grid-cols-4 gap-4 p-8 border border-zinc-800 hover:border-indigo-500/30 transition-all bg-zinc-900/10">
             <div className="text-zinc-500 font-mono text-sm">{exp.period}</div>
-            <div className="md:col-span-3">
-              <h3 className="text-2xl font-bold tracking-tight group-hover:text-white transition-colors">{exp.role}</h3>
-              <p className="text-indigo-400 font-medium mb-4">{exp.company}</p>
-              <p className="text-zinc-400 leading-relaxed text-sm">{exp.description}</p>
-            </div>
+<div className="md:col-span-3">
+               <h3 className="text-2xl font-bold tracking-tight group-hover:text-white transition-colors">{exp.role}</h3>
+               <p className="text-indigo-400 font-medium mb-1">{exp.company}</p>
+               {exp.isSimulation && (
+                 <p className="text-zinc-600 text-xs font-mono mb-4">Virtual Job Simulation via Forage</p>
+               )}
+               {!exp.isSimulation && <div className="mb-4" />}
+               <p className="text-zinc-400 leading-relaxed text-sm">{exp.description}</p>
+             </div>
           </div>
         ))}
       </div>
